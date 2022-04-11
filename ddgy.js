@@ -9,7 +9,7 @@
 uid其实不重要，只是用来区分token所属的账号，方便重写。手动捉包的话uid随便填都可以
 多账号换行或者@隔开，重写多账号直接换号捉就行
 export ddgyToken='uid&token'
-1
+
 重写：
 [task_local]
 #滴滴果园
