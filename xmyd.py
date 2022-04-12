@@ -6,7 +6,7 @@
 # @Software: PyCharm
 
 '''
-cron:  0 20 6 * * ? xiaomibushu.py
+cron:  0 20 6 * * ? xmyd.py
 new Env('小米运动刷步数');
 '''
 
