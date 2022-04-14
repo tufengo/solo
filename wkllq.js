@@ -50,7 +50,7 @@ cron 0-59/15 0-1,6-15,19-23 * * *
 
 */
 
-const $ = new Env('【悟空浏览器】版本:22.02.17.0');
+const $ = new Env('悟空浏览器');
 // @grant require
 const notify = $.isNode() ? require('./sendNotify') : '';
 
