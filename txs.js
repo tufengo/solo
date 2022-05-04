@@ -1,12 +1,12 @@
 /*
 安卓/IOS：淘小说
-邀请码：A48604852
-青龙-白虎
+邀请码：A52451417
 注册后自己先提现一次0.3绑定微信提现账号，然后脚本会自动提现
 需要crypto-js依赖，没有的自己安装: npm install crypto-js，V2P安装后需要重启容器，圈X不知道怎么装自己尝试
 每次运行读25次小说，间隔60秒，建议30分钟或者一小时运行一次
 要修改读小说次数的，自行设置变量txsReadNum，默认25
 
+淘小说抓包 GET http://ty.taoyuewenhua.net/css/common.css的包Cookie中的uid和token
 青龙捉包，把app捉到的任意url里面的token&uid填到txsCookie里，多账号@隔开
 export txsCookie='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&12345678@yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy&87654321'
 
